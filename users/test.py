@@ -3,8 +3,8 @@ from django.contrib.auth.models import User
 
 class UserTestCase(TestCase):
     def test_user(self):
-        username = 'Vitorino'
-        password = 'N@Ti'
+        username = 'postgres'
+        password = 'postgres'
         usuario = User(username=username)
         usuario.set_password(password)
         usuario.save()
