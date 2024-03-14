@@ -11,3 +11,4 @@ class UserTestCase(TestCase):
         usuario.save()
         self.assertEqual(usuario.username, username)
         self.assertTrue(usuario.check_password(password))
+        
